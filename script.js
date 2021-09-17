@@ -18,7 +18,6 @@ $(this).children('td').children('textarea').val(data[key]).attr('class','present
 rowNo = rowNo+1;
 key = key+1;
 });
-
 $('.saveBtn').click(function(){
     data = [];
     $('table tr').each(function(){ 
